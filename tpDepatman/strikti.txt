@@ -1,0 +1,29 @@
+create database Peyi character set 'utf8mb4';
+use Peyi
+create table Depatman(
+	non varchar(40) not null,
+    vil_prensipal varchar(60) not null,
+    sipèfisi int not null
+);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Lwes","Potoprens",4827);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("NO","Okap",2106);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Sid","Okay",2794);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Sidès","Jakmèl",2023);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Grandans","Jeremi",2091);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Latibonit","Gonayiv",4895);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Sant","Ench",3675);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Nodès","Folibète",1805);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Nodwès","Podepè",2176);
+insert into Depatman(non,vil_prensipal,sipèfisi) 
+values("Nip","Miragwan",1219);
+select * from Depatman;
+
